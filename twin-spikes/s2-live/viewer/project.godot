@@ -1,0 +1,21 @@
+; Engine configuration file.
+config_version=5
+
+[application]
+
+config/name="s2-live-viewer"
+run/main_scene="res://Main.tscn"
+config/features=PackedStringArray("4.6")
+
+[autoload]
+
+DataBus="*res://DataBus.gd"
+
+[display]
+
+window/size/viewport_width=1152
+window/size/viewport_height=648
+
+[rendering]
+
+renderer/rendering_method="mobile"

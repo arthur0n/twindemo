@@ -1,0 +1,14 @@
+{
+  "seed": 99,
+  "hz": 10,
+  "ticks": 530,
+  "frames_generated": 2650,
+  "frames_sent_to_clients": 835,
+  "per_tag_last_seq": {
+    "pump_1.temp": 530,
+    "pump_2.temp": 530,
+    "valve_3.pressure": 530,
+    "tank_1.level": 530,
+    "motor_2.rpm": 530
+  }
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "cpu_ms": 1.59,
+    "draw_calls": 1828.0,
+    "fps": 164.7,
+    "frame_ms": 6.07,
+    "gpu_ms": 0.0,
+    "measure_s": 8.0,
+    "objects_rendered": 11829.0,
+    "primitives": 805674.0,
+    "process_fps": 164.7,
+    "scene": "res://models/city_before.scn",
+    "vantage": "139.5,1.7,135:139.5,1.7,0",
+    "warmup_s": 2.0
+  },
+  {
+    "cpu_ms": 4.31,
+    "draw_calls": 5579.0,
+    "fps": 132.6,
+    "frame_ms": 7.54,
+    "gpu_ms": 0.0,
+    "measure_s": 8.0,
+    "objects_rendered": 40500.0,
+    "primitives": 2774000.0,
+    "process_fps": 132.6,
+    "scene": "res://models/city_before.scn",
+    "vantage": "-65,260,-65:135,15,135",
+    "warmup_s": 2.0
+  },
+  {
+    "cpu_ms": 0.5,
+    "draw_calls": 773.0,
+    "fps": 146.8,
+    "frame_ms": 6.81,
+    "gpu_ms": 0.0,
+    "measure_s": 8.0,
+    "objects_rendered": 773.0,
+    "primitives": 1342936.0,
+    "process_fps": 146.8,
+    "scene": "res://models/city_after.scn",
+    "vantage": "139.5,1.7,135:139.5,1.7,0",
+    "warmup_s": 2.0
+  },
+  {
+    "cpu_ms": 0.73,
+    "draw_calls": 1594,
+    "fps": 221.2,
+    "frame_ms": 4.52,
+    "gpu_ms": 0.0,
+    "measure_s": 8.0,
+    "objects_rendered": 1594,
+    "primitives": 2774000,
+    "process_fps": 221.2,
+    "scene": "res://models/city_after.scn",
+    "vantage": "-65,260,-65:135,15,135",
+    "warmup_s": 2.0
+  }
+]

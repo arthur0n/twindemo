@@ -1,0 +1,14 @@
+[
+  {
+    "camera": "inside",
+    "count": 1000000,
+    "draw_calls": 53,
+    "fps": 126.4,
+    "frame_ms": 7.91,
+    "mode": "chunked-occ-off",
+    "objects_rendered": 53,
+    "primitives": 7031736,
+    "process_fps": 126.4,
+    "time_process_ms": 14.44
+  }
+]

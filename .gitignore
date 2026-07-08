@@ -1,0 +1,13 @@
+# The framework is NOT vendored here — clone it per TUTORIAL.md (its own upstream):
+#   https://github.com/arthur0n/xenodot-forge.git
+/xenodot-forge/
+
+# Regenerable / machine-local (the tutorial rebuilds all of these)
+/x-shared-assets/
+**/.venv/
+**/.godot/
+**/node_modules/
+/house-twin/exports/
+/twin-spikes/*/build/
+*.log
+nohup.out
