@@ -1,3 +1,10 @@
+> **ARCHIVED (2026-07-10).** This was the twin framework's first test seat — its
+> learnings (tools, skills, findings, demo kits) were harvested into
+> [xenodot-twin](https://github.com/arthur0n/xenodot-twin); the live demos it
+> produced are hosted at
+> [arthur0n.github.io/xenodot-twin-demos](https://arthur0n.github.io/xenodot-twin-demos/).
+> Kept read-only as measurement evidence (`twin-spikes/`) cited by the framework's findings.
+
 # twindemo
 
 A from-scratch reproduction of the **Xenodot Forge digital-twin viewer**: a live, scrubbable twin
