@@ -1,0 +1,1155 @@
+{
+  "chunks": "auto",
+  "est_draw_items_after": 34800,
+  "est_draw_items_before": 34800,
+  "globalid_map": {
+
+  },
+  "globalid_map_size": 0,
+  "groups_instanced": 0,
+  "groups_total": 224,
+  "hints_applied": 0,
+  "hints_file": "",
+  "hints_unmatched": [],
+  "input": "res://models/city_before.scn",
+  "instances_total": 0,
+  "meshes_before": 28600,
+  "min_instances": 100000,
+  "multimeshes": 0,
+  "nodes_after": 28703,
+  "nodes_before": 28703,
+  "occluder_min_volume": 10.0,
+  "occluders_added": 0,
+  "output": "res://models/fadesweep/ucity_coarser_fade12.scn",
+  "per_group": [
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_65"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_210"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_353"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_512"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_817"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_1057"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_1216"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_1440"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_1625"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_1780"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_1926"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_2106"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_2410"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_2635"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_2787"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_3011"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_3195"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_3323"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_3454"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_3584"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_3705"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_3795-openings-6293-21705"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_3997-openings-6569-6794"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_4041-openings-6517-21915"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_4085-openings-6743-7011"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_4129"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_4217-openings-8155"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_4285"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_4397"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_4463"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_4506-openings-7989"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_4551"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_4596"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_4641"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_4816"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_4866"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_4916"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_4966"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_5055"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_5104"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_5163"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_5265"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_5397"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_5446-openings-7063-7280-7497-7729"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_5496-openings-22174-22226-22278-22330-22382"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_5546-openings-7781-7833-7885-7937"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_5596-openings-21966-22018-22070-22122-22434"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_5640-openings-8206"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_5685-openings-16050"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_5729-openings-15885"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_5773"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_5857"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_5901-openings-8372"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_5946-openings-16101"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_5990-openings-15999"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_6034"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_6078"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_6130"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_6245"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_6288"
+    },
+    {
+      "count": 200,
+      "instanced": false,
+      "mesh": "duplex_6362"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_6512"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_6564"
+    },
+    {
+      "count": 200,
+      "instanced": false,
+      "mesh": "duplex_6616"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_6738"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_6789"
+    },
+    {
+      "count": 400,
+      "instanced": false,
+      "mesh": "duplex_6857"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_7006"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_7058"
+    },
+    {
+      "count": 400,
+      "instanced": false,
+      "mesh": "duplex_7126"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_7275"
+    },
+    {
+      "count": 800,
+      "instanced": false,
+      "mesh": "duplex_7343"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_7492"
+    },
+    {
+      "count": 400,
+      "instanced": false,
+      "mesh": "duplex_7563"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_7724"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_7776"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_7828"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_7880"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_7932"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_7984"
+    },
+    {
+      "count": 200,
+      "instanced": false,
+      "mesh": "duplex_8030"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_8150"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_8201"
+    },
+    {
+      "count": 400,
+      "instanced": false,
+      "mesh": "duplex_8247"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_8367"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_8967"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_8999"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_9017"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_9324"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_12182"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_12560-openings-12583"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_12580"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_12962-openings-12985"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_12982"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_13317-openings-13340"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_13337"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_13671-openings-13694"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_13691"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_14026-openings-14049"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_14046"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_14380-openings-14403"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_14400"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_14735-openings-14758"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_14755"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_15089-openings-15112"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_15109"
+    },
+    {
+      "count": 1400,
+      "instanced": false,
+      "mesh": "duplex_15449"
+    },
+    {
+      "count": 200,
+      "instanced": false,
+      "mesh": "duplex_15842"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_15880"
+    },
+    {
+      "count": 200,
+      "instanced": false,
+      "mesh": "duplex_15926"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_15994"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_16045"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_16096"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_16210-openings-16306"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_16303"
+    },
+    {
+      "count": 200,
+      "instanced": false,
+      "mesh": "duplex_16388"
+    },
+    {
+      "count": 200,
+      "instanced": false,
+      "mesh": "duplex_16517"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_16751-openings-16847"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_16844"
+    },
+    {
+      "count": 400,
+      "instanced": false,
+      "mesh": "duplex_17279"
+    },
+    {
+      "count": 800,
+      "instanced": false,
+      "mesh": "duplex_17500"
+    },
+    {
+      "count": 200,
+      "instanced": false,
+      "mesh": "duplex_17684"
+    },
+    {
+      "count": 200,
+      "instanced": false,
+      "mesh": "duplex_19228"
+    },
+    {
+      "count": 200,
+      "instanced": false,
+      "mesh": "duplex_20610"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_20790"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_20901"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_20956"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_21011"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_21078"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_21145"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_21193"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_21334"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_21399"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_21447"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_21495"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_21543"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_21608"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_21656"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_21700"
+    },
+    {
+      "count": 200,
+      "instanced": false,
+      "mesh": "duplex_21764"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_21910"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_21961"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_22013"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_22065"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_22117"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_22169"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_22221"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_22273"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_22325"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_22377"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_22429"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_22489-openings-22533-22546-22506-22520"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_22502"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_22516"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_22528"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_22541"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_22661"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_22706"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_22751"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_22796"
+    },
+    {
+      "count": 200,
+      "instanced": false,
+      "mesh": "duplex_23117"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_23284"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_23367"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_23406"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_23444"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_23483"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_23522"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_23560"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_23669"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_23766"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_23824"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_23882"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_23990"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_24058"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_24126"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_24184"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_24266"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_24324"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_24406"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_24474"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_24542"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_24594"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_24678"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_24721"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_24766"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_24811"
+    },
+    {
+      "count": 200,
+      "instanced": false,
+      "mesh": "duplex_26909"
+    },
+    {
+      "count": 400,
+      "instanced": false,
+      "mesh": "duplex_29066"
+    },
+    {
+      "count": 200,
+      "instanced": false,
+      "mesh": "duplex_31209"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_31429"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_31474"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_32060"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_32093"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_32112"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_32344"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_35161"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_35197-openings-35241"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_35236"
+    },
+    {
+      "count": 200,
+      "instanced": false,
+      "mesh": "duplex_35282"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_35355-openings-35399"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_35394"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_35450"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_35495"
+    },
+    {
+      "count": 200,
+      "instanced": false,
+      "mesh": "duplex_35769"
+    },
+    {
+      "count": 200,
+      "instanced": false,
+      "mesh": "duplex_36111"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_36409"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_36684"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_36890"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_37063"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_37193"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_37323"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_37454"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_37584"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_37714"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_37775"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_37862"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_37911"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_37968"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_38013"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_38058"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_38103"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_38148"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_38193"
+    },
+    {
+      "count": 100,
+      "instanced": false,
+      "mesh": "duplex_38238"
+    }
+  ],
+  "skipped_surface_override": 0,
+  "target_per_chunk": 32,
+  "vis_fade_margin": 12.0,
+  "vis_fade_mode": "self",
+  "vis_medium_diag": 4.0,
+  "vis_medium_end": 120.0,
+  "vis_ranges_set": 18000,
+  "vis_small_diag": 1.0,
+  "vis_small_end": 40.0
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "cpu_ms": 1.22,
+    "draw_calls": 1325.0,
+    "fps": 331.5,
+    "frame_ms": 3.02,
+    "gpu_ms": 0.0,
+    "measure_s": 6.0,
+    "objects_rendered": 7944.0,
+    "primitives": 538422.0,
+    "process_fps": 331.5,
+    "scene": "res://models/fadesweep/ucity_coarser.scn",
+    "vantage": "139.5,1.7,135:139.5,1.7,0",
+    "warmup_s": 1.5
+  },
+  {
+    "cpu_ms": 1.21,
+    "draw_calls": 1325.0,
+    "fps": 316.3,
+    "frame_ms": 3.16,
+    "gpu_ms": 0.0,
+    "measure_s": 6.0,
+    "objects_rendered": 7944.0,
+    "primitives": 538422.0,
+    "process_fps": 316.3,
+    "scene": "res://models/fadesweep/ucity_coarser.scn",
+    "vantage": "139.5,1.7,135:139.5,1.7,0",
+    "warmup_s": 1.5
+  },
+  {
+    "cpu_ms": 1.35,
+    "draw_calls": 1325.0,
+    "fps": 319.9,
+    "frame_ms": 3.13,
+    "gpu_ms": 0.0,
+    "measure_s": 6.0,
+    "objects_rendered": 7944.0,
+    "primitives": 538422.0,
+    "process_fps": 319.9,
+    "scene": "res://models/fadesweep/ucity_coarser.scn",
+    "vantage": "139.5,1.7,135:139.5,1.7,0",
+    "warmup_s": 1.5
+  },
+  {
+    "cpu_ms": 1.36,
+    "draw_calls": 1325,
+    "fps": 260.6,
+    "frame_ms": 3.84,
+    "gpu_ms": 0.0,
+    "measure_s": 6.0,
+    "objects_rendered": 7944,
+    "primitives": 538422,
+    "process_fps": 260.6,
+    "scene": "res://models/fadesweep/ucity_coarser.scn",
+    "vantage": "139.5,1.7,135:139.5,1.7,0",
+    "warmup_s": 1.5
+  }
+]

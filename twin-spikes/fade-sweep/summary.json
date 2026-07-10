@@ -1,0 +1,235 @@
+{
+  "noise_floor_ms": 0.03,
+  "cross_session_anchor": {
+    "street": {
+      "off": 0.99,
+      "aggressive_win": 0.45
+    },
+    "aerial": {
+      "off": 4.13,
+      "aggressive": 1.2
+    }
+  },
+  "method": "street=interleaved-repeat medians; aerial=single-pass; deterministic obj/draw/prim",
+  "street": {
+    "aggressive": {
+      "off_cpu": {
+        "median": 1.61,
+        "min": 1.51,
+        "n": 4
+      },
+      "rows": [
+        {
+          "config": "aggressive",
+          "vis_ranges_set": 18000,
+          "vis_fade_margin": 0.0,
+          "vis_fade_mode": "disabled",
+          "cpu": {
+            "median": 0.845,
+            "min": 0.83,
+            "n": 4
+          },
+          "objects_rendered": 4854.0,
+          "draw_calls": 906.0,
+          "primitives": 331194.0,
+          "nofade_win_median": 0.765,
+          "fade_win_median": 0.765,
+          "retention_median": 1.0,
+          "nofade_win_min": 0.68,
+          "fade_win_min": 0.68,
+          "retention_min": 1.0,
+          "fade_cost_median": 0.0,
+          "d_objects_vs_base": 0.0
+        },
+        {
+          "config": "aggressive_fade5",
+          "vis_ranges_set": 18000,
+          "vis_fade_margin": 5.0,
+          "vis_fade_mode": "self",
+          "cpu": {
+            "median": 0.87,
+            "min": 0.86,
+            "n": 4
+          },
+          "objects_rendered": 5016.0,
+          "draw_calls": 1303.0,
+          "primitives": 344194.0,
+          "nofade_win_median": 0.765,
+          "fade_win_median": 0.74,
+          "retention_median": 0.967,
+          "nofade_win_min": 0.68,
+          "fade_win_min": 0.65,
+          "retention_min": 0.956,
+          "fade_cost_median": 0.025,
+          "d_objects_vs_base": 162.0,
+          "retention_verdict": "PASS>=80%"
+        },
+        {
+          "config": "aggressive_fade12",
+          "vis_ranges_set": 18000,
+          "vis_fade_margin": 12.0,
+          "vis_fade_mode": "self",
+          "cpu": {
+            "median": 1.08,
+            "min": 0.96,
+            "n": 4
+          },
+          "objects_rendered": 5282.0,
+          "draw_calls": 1630.0,
+          "primitives": 369066.0,
+          "nofade_win_median": 0.765,
+          "fade_win_median": 0.53,
+          "retention_median": 0.693,
+          "nofade_win_min": 0.68,
+          "fade_win_min": 0.55,
+          "retention_min": 0.809,
+          "fade_cost_median": 0.235,
+          "d_objects_vs_base": 428.0,
+          "retention_verdict": "BORDERLINE"
+        }
+      ]
+    },
+    "coarser": {
+      "off_cpu": {
+        "median": 1.77,
+        "min": 1.73,
+        "n": 4
+      },
+      "rows": [
+        {
+          "config": "coarser",
+          "vis_ranges_set": 18000,
+          "vis_fade_margin": 0.0,
+          "vis_fade_mode": "disabled",
+          "cpu": {
+            "median": 1.285,
+            "min": 1.21,
+            "n": 4
+          },
+          "objects_rendered": 7944.0,
+          "draw_calls": 1325.0,
+          "primitives": 538422.0,
+          "nofade_win_median": 0.485,
+          "fade_win_median": 0.485,
+          "retention_median": 1.0,
+          "nofade_win_min": 0.52,
+          "fade_win_min": 0.52,
+          "retention_min": 1.0,
+          "fade_cost_median": 0.0,
+          "d_objects_vs_base": 0.0
+        },
+        {
+          "config": "coarser_fade5",
+          "vis_ranges_set": 18000,
+          "vis_fade_margin": 5.0,
+          "vis_fade_mode": "self",
+          "cpu": {
+            "median": 1.455,
+            "min": 1.35,
+            "n": 4
+          },
+          "objects_rendered": 8262.0,
+          "draw_calls": 1816.0,
+          "primitives": 567066.0,
+          "nofade_win_median": 0.485,
+          "fade_win_median": 0.315,
+          "retention_median": 0.649,
+          "nofade_win_min": 0.52,
+          "fade_win_min": 0.38,
+          "retention_min": 0.731,
+          "fade_cost_median": 0.17,
+          "d_objects_vs_base": 318.0,
+          "retention_verdict": "FAIL<80%"
+        },
+        {
+          "config": "coarser_fade12",
+          "vis_ranges_set": 18000,
+          "vis_fade_margin": 12.0,
+          "vis_fade_mode": "self",
+          "cpu": {
+            "median": 1.58,
+            "min": 1.53,
+            "n": 4
+          },
+          "objects_rendered": 8726,
+          "draw_calls": 2452,
+          "primitives": 607790,
+          "nofade_win_median": 0.485,
+          "fade_win_median": 0.19,
+          "retention_median": 0.392,
+          "nofade_win_min": 0.52,
+          "fade_win_min": 0.2,
+          "retention_min": 0.385,
+          "fade_cost_median": 0.295,
+          "d_objects_vs_base": 782.0,
+          "retention_verdict": "FAIL<80%"
+        }
+      ]
+    }
+  },
+  "aerial": [
+    {
+      "config": "off",
+      "vis_ranges_set": 0,
+      "vis_fade_margin": 0.0,
+      "vis_fade_mode": "disabled",
+      "cpu_ms": 3.94,
+      "objects_rendered": 40500.0,
+      "draw_calls": 5579.0
+    },
+    {
+      "config": "aggressive",
+      "vis_ranges_set": 18000,
+      "vis_fade_margin": 0.0,
+      "vis_fade_mode": "disabled",
+      "cpu_ms": 2.17,
+      "objects_rendered": 12700.0,
+      "draw_calls": 1901.0
+    },
+    {
+      "config": "aggressive_fade5",
+      "vis_ranges_set": 18000,
+      "vis_fade_margin": 5.0,
+      "vis_fade_mode": "self",
+      "cpu_ms": 2.16,
+      "objects_rendered": 12700.0,
+      "draw_calls": 1901.0
+    },
+    {
+      "config": "aggressive_fade12",
+      "vis_ranges_set": 18000,
+      "vis_fade_margin": 12.0,
+      "vis_fade_mode": "self",
+      "cpu_ms": 2.15,
+      "objects_rendered": 12700.0,
+      "draw_calls": 1901.0
+    },
+    {
+      "config": "coarser",
+      "vis_ranges_set": 18000,
+      "vis_fade_margin": 0.0,
+      "vis_fade_mode": "disabled",
+      "cpu_ms": 2.13,
+      "objects_rendered": 12700.0,
+      "draw_calls": 1901.0
+    },
+    {
+      "config": "coarser_fade5",
+      "vis_ranges_set": 18000,
+      "vis_fade_margin": 5.0,
+      "vis_fade_mode": "self",
+      "cpu_ms": 2.13,
+      "objects_rendered": 12700.0,
+      "draw_calls": 1901.0
+    },
+    {
+      "config": "coarser_fade12",
+      "vis_ranges_set": 18000,
+      "vis_fade_margin": 12.0,
+      "vis_fade_mode": "self",
+      "cpu_ms": 2.17,
+      "objects_rendered": 12700,
+      "draw_calls": 1901
+    }
+  ]
+}
