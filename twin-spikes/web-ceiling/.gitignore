@@ -1,0 +1,9 @@
+# generated web exports (~80 MB of wasm) — reproduce via `--export-release`
+builds/
+# Godot import cache
+viewer/.godot/
+viewer/*.uid
+# scratch
+shots/
+# scene copies (identical to the tracked sources documented in NOTES 'Reproduce'); re-copy to run
+viewer/models/

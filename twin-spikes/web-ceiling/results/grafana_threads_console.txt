@@ -1,0 +1,5 @@
+[top] console.error: Error
+The following features required to run Godot projects on the Web are missing:
+Cross-Origin Isolation - Check that the web server configuration sends the correct headers.
+SharedArrayBuffer - Check that the web server configuration sends the correct headers.
+--- collected 1 console/log/exception lines in 22s ---

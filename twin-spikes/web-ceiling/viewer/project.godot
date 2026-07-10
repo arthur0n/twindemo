@@ -1,0 +1,30 @@
+; Engine configuration file.
+; web-ceiling spike — measures the browser WASM fps ceiling for the twin viewer.
+; DataBus autoload + binding runtime are copied from the house viewer so the "live
+; binding active" floor is measured honestly (real WebSocket ingest + per-frame
+; tag_update -> albedo/label writes running concurrently with rendering).
+config_version=5
+
+[application]
+
+config/name="web-ceiling"
+run/main_scene="res://main.tscn"
+config/features=PackedStringArray("4.6", "Forward Plus")
+
+[autoload]
+
+DataBus="*res://core/data_bus.gd"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/vsync/vsync_mode=0
+
+[rendering]
+
+renderer/rendering_method="forward_plus"
+; Web export auto-falls-back to the Compatibility (WebGL2) backend — Forward+ needs
+; Vulkan/Metal. The actual driver is recorded per-run in the BENCH json + the JS WebGL
+; renderer string, so the native(Metal/Forward+)-vs-web(WebGL2/Compatibility) gap is explicit.
+occlusion_culling/use_occlusion_culling=false

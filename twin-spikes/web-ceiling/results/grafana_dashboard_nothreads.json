@@ -1,0 +1,23 @@
+{
+  "id": 3727821204402176,
+  "panels": [
+    {
+      "gridPos": {
+        "h": 20,
+        "w": 24,
+        "x": 0,
+        "y": 0
+      },
+      "options": {
+        "content": "<iframe src=\"http://localhost:8072/index.html?scene=duplex&vantage=street&build=nothreads-in-grafana\" width=\"1000\" height=\"640\" style=\"border:0\"></iframe>",
+        "mode": "html"
+      },
+      "title": "twin-nothreads-embed",
+      "type": "text"
+    }
+  ],
+  "schemaVersion": 39,
+  "title": "twin-nothreads-embed",
+  "uid": "twinnothreads",
+  "version": 1
+}
