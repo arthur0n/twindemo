@@ -1,0 +1,28 @@
+{
+ "1$EK4rg$92yvUy2mL2QZ0_": {
+  "ifc_class": "IfcPump",
+  "name": "P-101 Feed Pump",
+  "psets": {
+   "Pset_PumpCommon": {
+    "Reference": "P-101",
+    "NominalFlowRate": "12 m3/h",
+    "Service": "feed",
+    "id": 44
+   }
+  },
+  "quantities": {}
+ },
+ "3sPkXmJdv56xUvAl2tciGH": {
+  "ifc_class": "IfcTank",
+  "name": "TK-101 Buffer Tank",
+  "psets": {
+   "Pset_TankCommon": {
+    "Reference": "TK-101",
+    "NominalCapacity": "5000 L",
+    "Service": "buffer",
+    "id": 28
+   }
+  },
+  "quantities": {}
+ }
+}

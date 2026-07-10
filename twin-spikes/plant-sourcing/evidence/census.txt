@@ -1,0 +1,23 @@
+# Entity census (grep over STEP files) — NBU_MedicalClinic (DURAARK, CC0)
+## HVAC (NBU_MedicalClinic_Eng-HVAC.ifc, 27,370,562 bytes, IFC2X3)
+  IFCFLOWSEGMENT             1548
+  IFCFLOWMOVINGDEVICE        8
+  IFCFLOWCONTROLLER          115
+  IFCFLOWFITTING             1590
+  IFCFLOWTERMINAL            440
+  IFCENERGYCONVERSIONDEVICE  3
+  IFCSPACE                   263
+  Named equipment: fans (M_Centrifugal Fan, M_Exhaust Unit), VAV dampers (M_VAV Unit),
+  AHUs (M_Air Handling Unit), chiller (M_Screw Chiller). PUMP/TANK/VALVE literal count = 0.
+
+## MEP-Optimized (NBU_MedicalClinic_Eng-MEP-Optimized.ifc, 125,780,663 bytes, IFC2X3)
+  IFCFLOWSEGMENT             5952
+  IFCFLOWMOVINGDEVICE        137
+  IFCFLOWCONTROLLER          173
+  IFCFLOWFITTING             6693
+  IFCFLOWTERMINAL            3053
+  IFCFLOWSTORAGEDEVICE       1
+  IFCENERGYCONVERSIONDEVICE  3
+  IFCSPACE                   526
+  Literal equipment: 1x M_Inline Pump, 172x M_Ball Valve, 1x M_Water Heater (tank),
+  4x Water Heater refs, backflow preventers. Pumps SPARSE (1); dominated by pipe fittings.

@@ -1,0 +1,9 @@
+# GlobalId join gate (tools/check_twin_join.gd, --min=0.95), run in house/ Godot project
+# with absolute --scene / --sidecar.
+
+Track B stub  (plant_stub.glb):   SIDECAR_KEYS=2      JOIN 2/2      (100.0%)  GATE OK
+Clinic HVAC   (hvac.glb, 6.1MB):  SIDECAR_KEYS=11363  JOIN 3967/3967 (100.0%) GATE OK
+Clinic MEP-Opt(mep.glb, 25.4MB):  SIDECAR_KEYS=16544  JOIN 16538/16538(100.0%)GATE OK
+
+Convert timings: HVAC 10.9s (3967 shapes); MEP-Opt 61.3s (16538 shapes); stub 0.0s (2 shapes).
+All three: header ISO-10303-21 verified; HVAC/MEP schema IFC2X3, stub IFC4.
