@@ -1,0 +1,14 @@
+{
+  "enabledPlugins": {
+    "xenodot@xenodot-twin": true,
+    "xenodot-twin@xenodot-twin": true
+  },
+  "extraKnownMarketplaces": {
+    "xenodot-twin": {
+      "source": {
+        "source": "github",
+        "repo": "arthur0n/xenodot-twin"
+      }
+    }
+  }
+}

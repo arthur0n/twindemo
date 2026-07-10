@@ -12,3 +12,4 @@
 /twin-spikes/*/build/
 *.log
 nohup.out
+.claude/scheduled_tasks.lock
