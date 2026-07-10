@@ -1,0 +1,72 @@
+[
+  {
+    "cpu_ms": 0.61,
+    "draw_calls": 284.0,
+    "fps": 120.0,
+    "frame_ms": 8.33,
+    "gpu_ms": 0.0,
+    "measure_s": 8.0,
+    "objects_rendered": 343.0,
+    "primitives": 27740.0,
+    "process_fps": 120.0,
+    "scene": "res://models/occsweep/duplex_off.tscn",
+    "vantage": "-40,55,-35:4.4,3.7,8.9",
+    "warmup_s": 2.0
+  },
+  {
+    "cpu_ms": 0.78,
+    "draw_calls": 273.0,
+    "fps": 120.0,
+    "frame_ms": 8.33,
+    "gpu_ms": 0.0,
+    "measure_s": 8.0,
+    "objects_rendered": 321.0,
+    "primitives": 23924.0,
+    "process_fps": 120.0,
+    "scene": "res://models/occsweep/duplex_default.tscn",
+    "vantage": "-40,55,-35:4.4,3.7,8.9",
+    "warmup_s": 2.0
+  },
+  {
+    "cpu_ms": 0.81,
+    "draw_calls": 271.0,
+    "fps": 120.0,
+    "frame_ms": 8.33,
+    "gpu_ms": 0.0,
+    "measure_s": 8.0,
+    "objects_rendered": 317.0,
+    "primitives": 22428.0,
+    "process_fps": 120.0,
+    "scene": "res://models/occsweep/duplex_half.tscn",
+    "vantage": "-40,55,-35:4.4,3.7,8.9",
+    "warmup_s": 2.0
+  },
+  {
+    "cpu_ms": 0.81,
+    "draw_calls": 273.0,
+    "fps": 120.0,
+    "frame_ms": 8.33,
+    "gpu_ms": 0.0,
+    "measure_s": 8.0,
+    "objects_rendered": 321.0,
+    "primitives": 23924.0,
+    "process_fps": 120.0,
+    "scene": "res://models/occsweep/duplex_double.tscn",
+    "vantage": "-40,55,-35:4.4,3.7,8.9",
+    "warmup_s": 2.0
+  },
+  {
+    "cpu_ms": 0.86,
+    "draw_calls": 269,
+    "fps": 120.0,
+    "frame_ms": 8.33,
+    "gpu_ms": 0.0,
+    "measure_s": 8.0,
+    "objects_rendered": 313,
+    "primitives": 22308,
+    "process_fps": 120.0,
+    "scene": "res://models/occsweep/duplex_aggressive.tscn",
+    "vantage": "-40,55,-35:4.4,3.7,8.9",
+    "warmup_s": 2.0
+  }
+]

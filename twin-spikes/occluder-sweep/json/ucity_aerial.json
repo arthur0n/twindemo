@@ -1,0 +1,72 @@
+[
+  {
+    "cpu_ms": 5.45,
+    "draw_calls": 5579.0,
+    "fps": 117.5,
+    "frame_ms": 8.51,
+    "gpu_ms": 0.0,
+    "measure_s": 8.0,
+    "objects_rendered": 40500.0,
+    "primitives": 2774000.0,
+    "process_fps": 117.5,
+    "scene": "res://models/occsweep/ucity_off.scn",
+    "vantage": "-65,260,-65:135,15,135",
+    "warmup_s": 2.0
+  },
+  {
+    "cpu_ms": 5.58,
+    "draw_calls": 5579.0,
+    "fps": 116.8,
+    "frame_ms": 8.56,
+    "gpu_ms": 0.0,
+    "measure_s": 8.0,
+    "objects_rendered": 40500.0,
+    "primitives": 2774000.0,
+    "process_fps": 116.8,
+    "scene": "res://models/occsweep/ucity_default.scn",
+    "vantage": "-65,260,-65:135,15,135",
+    "warmup_s": 2.0
+  },
+  {
+    "cpu_ms": 4.71,
+    "draw_calls": 5579.0,
+    "fps": 119.5,
+    "frame_ms": 8.36,
+    "gpu_ms": 0.0,
+    "measure_s": 8.0,
+    "objects_rendered": 40500.0,
+    "primitives": 2774000.0,
+    "process_fps": 119.5,
+    "scene": "res://models/occsweep/ucity_half.scn",
+    "vantage": "-65,260,-65:135,15,135",
+    "warmup_s": 2.0
+  },
+  {
+    "cpu_ms": 4.4,
+    "draw_calls": 5579.0,
+    "fps": 119.9,
+    "frame_ms": 8.34,
+    "gpu_ms": 0.0,
+    "measure_s": 8.0,
+    "objects_rendered": 40500.0,
+    "primitives": 2774000.0,
+    "process_fps": 119.9,
+    "scene": "res://models/occsweep/ucity_double.scn",
+    "vantage": "-65,260,-65:135,15,135",
+    "warmup_s": 2.0
+  },
+  {
+    "cpu_ms": 4.36,
+    "draw_calls": 5579,
+    "fps": 119.9,
+    "frame_ms": 8.34,
+    "gpu_ms": 0.0,
+    "measure_s": 8.0,
+    "objects_rendered": 40500,
+    "primitives": 2774000,
+    "process_fps": 119.9,
+    "scene": "res://models/occsweep/ucity_aggressive.scn",
+    "vantage": "-65,260,-65:135,15,135",
+    "warmup_s": 2.0
+  }
+]

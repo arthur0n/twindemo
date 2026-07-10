@@ -1,0 +1,16 @@
+[
+  {
+    "cpu_ms": 0.96,
+    "draw_calls": 1084,
+    "fps": 120.0,
+    "frame_ms": 8.33,
+    "gpu_ms": 0.0,
+    "measure_s": 8.0,
+    "objects_rendered": 1084,
+    "primitives": 2774000,
+    "process_fps": 120.0,
+    "scene": "res://models/occsweep/c2_off.scn",
+    "vantage": "-65,260,-65:135,15,135",
+    "warmup_s": 2.0
+  }
+]

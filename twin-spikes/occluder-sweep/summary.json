@@ -1,0 +1,309 @@
+{
+  "noise_floor_ms": 0.03,
+  "scenes": {
+    "duplex": {
+      "street": [
+        {
+          "config": "off",
+          "occluder_min_volume": 10.0,
+          "occluders_added": 0,
+          "cpu_ms": 0.7,
+          "fps": 120.0,
+          "objects_rendered": 343.0,
+          "draw_calls": 282.0,
+          "primitives": 27740.0,
+          "d_cpu_ms": 0.0,
+          "d_objects": 0,
+          "win": "baseline"
+        },
+        {
+          "config": "default",
+          "occluder_min_volume": 10.0,
+          "occluders_added": 31,
+          "cpu_ms": 0.91,
+          "fps": 120.0,
+          "objects_rendered": 105.0,
+          "draw_calls": 101.0,
+          "primitives": 5864.0,
+          "d_cpu_ms": 0.21,
+          "d_objects": -238.0,
+          "win": "cpu-REGRESSION"
+        },
+        {
+          "config": "half",
+          "occluder_min_volume": 5.0,
+          "occluders_added": 39,
+          "cpu_ms": 0.89,
+          "fps": 120.0,
+          "objects_rendered": 105.0,
+          "draw_calls": 101.0,
+          "primitives": 5864.0,
+          "d_cpu_ms": 0.19,
+          "d_objects": -238.0,
+          "win": "cpu-REGRESSION"
+        },
+        {
+          "config": "double",
+          "occluder_min_volume": 20.0,
+          "occluders_added": 21,
+          "cpu_ms": 0.86,
+          "fps": 120.0,
+          "objects_rendered": 269.0,
+          "draw_calls": 234.0,
+          "primitives": 18928.0,
+          "d_cpu_ms": 0.16,
+          "d_objects": -74.0,
+          "win": "cpu-REGRESSION"
+        },
+        {
+          "config": "aggressive",
+          "occluder_min_volume": 2.0,
+          "occluders_added": 74,
+          "cpu_ms": 0.87,
+          "fps": 120.0,
+          "objects_rendered": 93,
+          "draw_calls": 90,
+          "primitives": 5548,
+          "d_cpu_ms": 0.17,
+          "d_objects": -250.0,
+          "win": "cpu-REGRESSION"
+        }
+      ],
+      "aerial": [
+        {
+          "config": "off",
+          "occluder_min_volume": 10.0,
+          "occluders_added": 0,
+          "cpu_ms": 0.61,
+          "fps": 120.0,
+          "objects_rendered": 343.0,
+          "draw_calls": 284.0,
+          "primitives": 27740.0,
+          "d_cpu_ms": 0.0,
+          "d_objects": 0,
+          "win": "baseline"
+        },
+        {
+          "config": "default",
+          "occluder_min_volume": 10.0,
+          "occluders_added": 31,
+          "cpu_ms": 0.78,
+          "fps": 120.0,
+          "objects_rendered": 321.0,
+          "draw_calls": 273.0,
+          "primitives": 23924.0,
+          "d_cpu_ms": 0.17,
+          "d_objects": -22.0,
+          "win": "cpu-REGRESSION"
+        },
+        {
+          "config": "half",
+          "occluder_min_volume": 5.0,
+          "occluders_added": 39,
+          "cpu_ms": 0.81,
+          "fps": 120.0,
+          "objects_rendered": 317.0,
+          "draw_calls": 271.0,
+          "primitives": 22428.0,
+          "d_cpu_ms": 0.2,
+          "d_objects": -26.0,
+          "win": "cpu-REGRESSION"
+        },
+        {
+          "config": "double",
+          "occluder_min_volume": 20.0,
+          "occluders_added": 21,
+          "cpu_ms": 0.81,
+          "fps": 120.0,
+          "objects_rendered": 321.0,
+          "draw_calls": 273.0,
+          "primitives": 23924.0,
+          "d_cpu_ms": 0.2,
+          "d_objects": -22.0,
+          "win": "cpu-REGRESSION"
+        },
+        {
+          "config": "aggressive",
+          "occluder_min_volume": 2.0,
+          "occluders_added": 74,
+          "cpu_ms": 0.86,
+          "fps": 120.0,
+          "objects_rendered": 313,
+          "draw_calls": 269,
+          "primitives": 22308,
+          "d_cpu_ms": 0.25,
+          "d_objects": -30.0,
+          "win": "cpu-REGRESSION"
+        }
+      ]
+    },
+    "ucity": {
+      "street": [
+        {
+          "config": "off",
+          "occluder_min_volume": 10.0,
+          "occluders_added": 0,
+          "cpu_ms": 1.67,
+          "fps": 120.0,
+          "objects_rendered": 11829.0,
+          "draw_calls": 1828.0,
+          "primitives": 805674.0,
+          "d_cpu_ms": 0.0,
+          "d_objects": 0,
+          "win": "baseline"
+        },
+        {
+          "config": "default",
+          "occluder_min_volume": 10.0,
+          "occluders_added": 3100,
+          "cpu_ms": 1.52,
+          "fps": 120.0,
+          "objects_rendered": 3990.0,
+          "draw_calls": 757.0,
+          "primitives": 283900.0,
+          "d_cpu_ms": -0.15,
+          "d_objects": -7839.0,
+          "win": "cpu-win>=0.10"
+        },
+        {
+          "config": "half",
+          "occluder_min_volume": 5.0,
+          "occluders_added": 3900,
+          "cpu_ms": 1.52,
+          "fps": 120.0,
+          "objects_rendered": 3650.0,
+          "draw_calls": 714.0,
+          "primitives": 253870.0,
+          "d_cpu_ms": -0.15,
+          "d_objects": -8179.0,
+          "win": "cpu-win>=0.10"
+        },
+        {
+          "config": "double",
+          "occluder_min_volume": 20.0,
+          "occluders_added": 2100,
+          "cpu_ms": 1.64,
+          "fps": 120.0,
+          "objects_rendered": 5326.0,
+          "draw_calls": 950.0,
+          "primitives": 375754.0,
+          "d_cpu_ms": -0.03,
+          "d_objects": -6503.0,
+          "win": "within-noise"
+        },
+        {
+          "config": "aggressive",
+          "occluder_min_volume": 2.0,
+          "occluders_added": 7400,
+          "cpu_ms": 1.55,
+          "fps": 120.0,
+          "objects_rendered": 3169,
+          "draw_calls": 655,
+          "primitives": 215578,
+          "d_cpu_ms": -0.12,
+          "d_objects": -8660.0,
+          "win": "cpu-win>=0.10"
+        }
+      ],
+      "aerial": [
+        {
+          "config": "off",
+          "occluder_min_volume": 10.0,
+          "occluders_added": 0,
+          "cpu_ms": 5.45,
+          "fps": 117.5,
+          "objects_rendered": 40500.0,
+          "draw_calls": 5579.0,
+          "primitives": 2774000.0,
+          "d_cpu_ms": 0.0,
+          "d_objects": 0,
+          "win": "baseline"
+        },
+        {
+          "config": "default",
+          "occluder_min_volume": 10.0,
+          "occluders_added": 3100,
+          "cpu_ms": 5.58,
+          "fps": 116.8,
+          "objects_rendered": 40500.0,
+          "draw_calls": 5579.0,
+          "primitives": 2774000.0,
+          "d_cpu_ms": 0.13,
+          "d_objects": 0.0,
+          "win": "cpu-REGRESSION"
+        },
+        {
+          "config": "half",
+          "occluder_min_volume": 5.0,
+          "occluders_added": 3900,
+          "cpu_ms": 4.71,
+          "fps": 119.5,
+          "objects_rendered": 40500.0,
+          "draw_calls": 5579.0,
+          "primitives": 2774000.0,
+          "d_cpu_ms": -0.74,
+          "d_objects": 0.0,
+          "win": "cpu-win>=0.10"
+        },
+        {
+          "config": "double",
+          "occluder_min_volume": 20.0,
+          "occluders_added": 2100,
+          "cpu_ms": 4.4,
+          "fps": 119.9,
+          "objects_rendered": 40500.0,
+          "draw_calls": 5579.0,
+          "primitives": 2774000.0,
+          "d_cpu_ms": -1.05,
+          "d_objects": 0.0,
+          "win": "cpu-win>=0.10"
+        },
+        {
+          "config": "aggressive",
+          "occluder_min_volume": 2.0,
+          "occluders_added": 7400,
+          "cpu_ms": 4.36,
+          "fps": 119.9,
+          "objects_rendered": 40500,
+          "draw_calls": 5579,
+          "primitives": 2774000,
+          "d_cpu_ms": -1.09,
+          "d_objects": 0.0,
+          "win": "cpu-win>=0.10"
+        }
+      ]
+    },
+    "c2": {
+      "street": [
+        {
+          "config": "off",
+          "occluder_min_volume": 10.0,
+          "occluders_added": 0,
+          "cpu_ms": 0.91,
+          "fps": 120.0,
+          "objects_rendered": 542,
+          "draw_calls": 542,
+          "primitives": 1387120,
+          "d_cpu_ms": 0.0,
+          "d_objects": 0,
+          "win": "baseline"
+        }
+      ],
+      "aerial": [
+        {
+          "config": "off",
+          "occluder_min_volume": 10.0,
+          "occluders_added": 0,
+          "cpu_ms": 0.96,
+          "fps": 120.0,
+          "objects_rendered": 1084,
+          "draw_calls": 1084,
+          "primitives": 2774000,
+          "d_cpu_ms": 0.0,
+          "d_objects": 0,
+          "win": "baseline"
+        }
+      ]
+    }
+  }
+}
