@@ -188,3 +188,14 @@ python3 merge.py                      # summary.json + retention tables
 ```
 SSIM / pixel-delta: `ffmpeg -i a.png -i b.png -lavfi ssim -f null -` and
 `ffmpeg -i a -i b -lavfi "blend=all_mode=difference,format=gray,signalstats,metadata=print:file=-" -f null -`.
+
+## Promoted to core (2026-07-10, xenodot-twin `feat/seat-promotions`)
+
+The pop-series pair here was promoted to the framework as the **bench_sweep perceptual mode**:
+`pop_series.gd` → `plugin-twin/tools/bench/pop_series.gd` (arg-ified — the street coords above are the
+header's worked example, no longer baked constants) and `pop_analyze.py` →
+`plugin-twin/tools/bench/pop_analyze.py` (arg-ified frames-dir pairs; both adjacent-frame and
+matched-position modes; ffmpeg preflighted). Parity proven against this spike's recorded numbers
+(aggressive vs fade12 peak ydelta 0.164 @ z=99 / min SSIM 0.9962). These seat originals stay as
+evidence. (The scale scene generator `house-twin/scripts/gen_city.gd` was promoted the same run to
+`plugin-twin/examples/gen_city.gd`.)

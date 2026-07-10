@@ -1,4 +1,7 @@
 extends SceneTree
+## PROMOTED TO CORE (2026-07-10) — this generator was promoted to the framework as
+## plugin-twin/examples/gen_city.gd (xenodot-twin `feat/seat-promotions`); this seat copy stays as the
+## working original. Regenerate the shared bench scene from the framework example going forward.
 ## scripts/gen_city.gd — synthesise a repeated-BIM "city block" benchmark scene (Phase 5 W2
 ## optimisation showcase). Prior art / methodology: library-twin/findings/
 ## twin-optimizer-benchmark-2026-07-08.md and the twin-optimize skill.
