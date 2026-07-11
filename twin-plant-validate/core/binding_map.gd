@@ -26,12 +26,10 @@ signal bindings_rebuilt(resolved: int, total: int)
 const DataBusScript := preload("res://core/data_bus.gd")
 const TagLabel3DScript := preload("res://overlay/tag_label_3d.gd")
 
-# GlobalId join rule — single source of truth; binding_map calls through the helper.
-const GlobalIdHelperScript := preload("res://core/globalid.gd")
-
-# Mirror the constants for clarity (the helper is the authority; these are read-only aliases).
-const GLOBALID_LEN := GlobalIdHelperScript.GLOBALID_LEN
-const GLOBALID_CHARS := GlobalIdHelperScript.GLOBALID_CHARS
+# IFC GlobalId: exactly 22 chars from the buildingSMART base64 alphabet. Godot's node-name
+# dedup can suffix a name, so we key on the 22-char prefix (matches twin-import's join rule).
+const GLOBALID_LEN := 22
+const GLOBALID_CHARS := "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz_$"
 
 const RESPONSE_ALBEDO := "albedo_ramp"
 const RESPONSE_LABEL := "label"
@@ -281,9 +279,17 @@ func _add_locator(globalid: String, kind: String, host: Node3D, index: int) -> v
 	_index[globalid] = bucket
 
 
-# Delegate to the shared GlobalIdHelper — the single source of the join rule.
+# The GlobalId carried by a node name, or "" if the name isn't one. Godot dedup can suffix
+# ("Guid@2"), so we take the 22-char prefix and confirm the IFC base64 alphabet — that keeps
+# WorldEnvironment / CameraRig / etc. out of the index.
 func _globalid_from_name(node_name: String) -> String:
-	return GlobalIdHelperScript.globalid_from_name(node_name)
+	if node_name.length() < GLOBALID_LEN:
+		return ""
+	var prefix := node_name.substr(0, GLOBALID_LEN)
+	for i in GLOBALID_LEN:
+		if GLOBALID_CHARS.find(prefix[i]) == -1:
+			return ""
+	return prefix
 
 
 func _collect_targets(binding: Binding) -> Array[Target]:

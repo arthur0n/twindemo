@@ -1,10 +1,8 @@
-[gd_scene load_steps=7 format=3]
+[gd_scene load_steps=5 format=3]
 
 [ext_resource type="Script" path="res://main.gd" id="1_main"]
 [ext_resource type="Script" path="res://core/camera_rig.gd" id="2_rig"]
 [ext_resource type="PackedScene" path="res://overlay/overlay.tscn" id="3_overlay"]
-[ext_resource type="Script" path="res://core/element_picker.gd" id="4_picker"]
-[ext_resource type="PackedScene" path="res://overlay/inspect_panel.tscn" id="5_inspect"]
 
 [sub_resource type="Environment" id="Env_viewer"]
 background_mode = 1
@@ -33,10 +31,5 @@ script = ExtResource("2_rig")
 [node name="Pitch" type="Node3D" parent="CameraRig"]
 
 [node name="Camera3D" type="Camera3D" parent="CameraRig/Pitch"]
-
-[node name="ElementPicker" type="Node" parent="."]
-script = ExtResource("4_picker")
-
-[node name="InspectPanel" parent="." instance=ExtResource("5_inspect")]
 
 [node name="Overlay" parent="." instance=ExtResource("3_overlay")]

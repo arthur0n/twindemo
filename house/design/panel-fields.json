@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "fields": [
+    { "label": "Name",      "source": "name" },
+    { "label": "IFC class", "source": "ifc_class" }
+  ]
+}

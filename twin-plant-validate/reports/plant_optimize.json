@@ -1,0 +1,122 @@
+{
+  "chunks": "auto",
+  "est_draw_items_after": 18,
+  "est_draw_items_before": 18,
+  "globalid_map": {
+
+  },
+  "globalid_map_size": 0,
+  "groups_instanced": 0,
+  "groups_total": 18,
+  "hints_applied": 0,
+  "hints_file": "",
+  "hints_unmatched": [],
+  "input": "res://models/plant.glb",
+  "instances_total": 0,
+  "meshes_before": 18,
+  "min_instances": 8,
+  "multimeshes": 0,
+  "nodes_after": 19,
+  "nodes_before": 19,
+  "occluders_added": 0,
+  "output": "res://models/plant_opt.tscn",
+  "per_group": [
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_22"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_36"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_50"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_64"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_78"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_93"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_108"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_125"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_138"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_151"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_164"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_177"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_192"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_205"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_218"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_231"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_245"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_259"
+    }
+  ],
+  "skipped_surface_override": 0,
+  "target_per_chunk": 32,
+  "vis_medium_diag": 2.0,
+  "vis_medium_end": 120.0,
+  "vis_ranges_set": 0,
+  "vis_small_diag": 0.5,
+  "vis_small_end": 40.0
+}

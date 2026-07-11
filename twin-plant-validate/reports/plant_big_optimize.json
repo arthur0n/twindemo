@@ -1,0 +1,977 @@
+{
+  "chunks": "auto",
+  "est_draw_items_after": 189,
+  "est_draw_items_before": 189,
+  "globalid_map": {
+
+  },
+  "globalid_map_size": 0,
+  "groups_instanced": 0,
+  "groups_total": 189,
+  "hints_applied": 0,
+  "hints_file": "",
+  "hints_unmatched": [],
+  "input": "res://models/plant_big.glb",
+  "instances_total": 0,
+  "meshes_before": 189,
+  "min_instances": 8,
+  "multimeshes": 0,
+  "nodes_after": 190,
+  "nodes_before": 190,
+  "occluders_added": 0,
+  "output": "res://models/plant_big_opt.tscn",
+  "per_group": [
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_22"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_36"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_50"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_64"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_78"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_92"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_106"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_120"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_134"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_148"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_162"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_176"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_190"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_204"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_218"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_232"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_246"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_260"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_274"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_288"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_302"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_316"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_330"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_344"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_358"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_372"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_386"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_400"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_414"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_428"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_442"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_456"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_470"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_484"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_498"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_512"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_526"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_540"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_554"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_568"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_582"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_597"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_612"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_627"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_642"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_657"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_672"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_687"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_702"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_717"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_732"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_747"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_762"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_777"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_792"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_807"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_822"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_837"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_852"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_867"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_882"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_897"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_912"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_927"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_942"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_957"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_972"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_987"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1002"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1017"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1034"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1047"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1060"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1073"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1086"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1099"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1112"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1125"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1138"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1151"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1164"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1177"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1190"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1203"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1216"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1229"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1242"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1255"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1268"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1281"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1294"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1307"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1320"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1333"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1346"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1359"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1372"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1385"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1398"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1411"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1424"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1437"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1450"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1463"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1476"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1489"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1502"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1515"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1528"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1541"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1554"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1567"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1580"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1593"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1606"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1619"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1632"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1645"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1658"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1671"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1684"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1697"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1710"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1723"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1736"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1749"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1762"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1775"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1788"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1803"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1816"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1829"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1842"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1855"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1868"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1881"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1894"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1907"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1920"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1933"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1946"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1959"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1972"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1985"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_1998"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2011"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2024"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2037"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2050"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2063"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2076"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2089"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2102"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2115"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2128"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2141"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2154"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2167"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2180"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2193"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2207"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2221"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2235"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2249"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2263"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2277"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2291"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2305"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2319"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2333"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2347"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2361"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2375"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2389"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2403"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2417"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2431"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2445"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2459"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2473"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2487"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2501"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2515"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2529"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2543"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2557"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2571"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2585"
+    },
+    {
+      "count": 1,
+      "instanced": false,
+      "mesh": "plant_big_2599"
+    }
+  ],
+  "skipped_surface_override": 0,
+  "target_per_chunk": 32,
+  "vis_medium_diag": 2.0,
+  "vis_medium_end": 120.0,
+  "vis_ranges_set": 0,
+  "vis_small_diag": 0.5,
+  "vis_small_end": 40.0
+}

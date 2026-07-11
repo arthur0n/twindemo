@@ -16,8 +16,6 @@ const OverlayScript := preload("res://overlay/overlay.gd")
 const PlaybackScript := preload("res://core/playback.gd")
 const TimelineScript := preload("res://overlay/timeline.gd")
 const TimelineScene := preload("res://overlay/timeline.tscn")
-const SidecarReaderScript := preload("res://core/sidecar_reader.gd")
-const InspectPanelScript := preload("res://overlay/inspect_panel.gd")
 
 const CONFIG_PATH := "res://viewer.cfg"
 const DEFAULT_BINDING_MAP := "binding_map.json"
@@ -30,15 +28,9 @@ const SCREENSHOT_SETTLE_FRAMES := 12
 @onready var _model_host: Node3D = %ModelHost
 @onready var _camera_rig: CameraRigScript = %CameraRig
 @onready var _overlay: OverlayScript = $Overlay
-@onready var _picker: ElementPicker = $ElementPicker
-@onready var _inspect_panel: InspectPanelScript = $InspectPanel
 
 
 func _ready() -> void:
-	# Give the picker the active camera so it can project rays. The camera lives inside the
-	# CameraRig subtree; get_viewport().get_camera_3d() resolves the current camera cleanly.
-	_picker.active_camera = get_viewport().get_camera_3d()
-
 	var model_path := _user_arg("model")
 	var recording_path := _user_arg("recording")
 	var binding_map_path := DEFAULT_BINDING_MAP
@@ -57,7 +49,6 @@ func _ready() -> void:
 		_frame_model()
 
 	_load_bindings(binding_map_path)
-	_wire_inspect_panel(model_path)
 
 	if recording_path != "":
 		_start_playback(recording_path)
@@ -65,26 +56,6 @@ func _ready() -> void:
 	var shot_path := _user_arg("screenshot")
 	if shot_path != "":
 		await _capture_screenshot(shot_path)
-
-
-## Instantiate a SidecarReader for the loaded model and wire the InspectPanel.
-## The sidecar path is derived from the GLB path: <base>_props.json sibling.
-## Silently does nothing when no model is loaded (placeholder grid) or when the
-## sidecar/field-map files are absent — the panel stays idle but never crashes.
-func _wire_inspect_panel(model_path: String) -> void:
-	var reader := SidecarReaderScript.new()
-	var field_map_path := "res://design/panel-fields.json"
-	if model_path != "":
-		# Derive <base>_props.json from the GLB path.
-		var base := model_path.get_basename()
-		var sidecar_path := base + "_props.json"
-		var sidecar_res := _rooted_path(sidecar_path)
-		if FileAccess.file_exists(sidecar_res):
-			reader.load_files(sidecar_res, field_map_path)
-		else:
-			# No sidecar yet — reader stays unloaded; panel shows nothing when picked.
-			reader.load_files("", field_map_path)
-	_inspect_panel.wire(_picker, _camera_rig, reader)
 
 
 ## Load the binding map (if configured) and resolve it against the loaded model, then push the
@@ -140,7 +111,21 @@ func _user_arg(key: String) -> String:
 	return ""
 
 
+## Load the model into `_model_host`, branching on extension (mirrors the optimizer's
+## loader split): `.glb`/`.gltf` read at RUNTIME via GLTFDocument (never imported into the
+## project); `.tscn`/`.scn` (the optimizer's own output) load as a PackedScene + instantiate.
+## Error paths stay loud — push_error + return false, caller skips _frame_model.
 func _load_model(path: String) -> bool:
+	var ext := path.get_extension().to_lower()
+	if ext == "glb" or ext == "gltf":
+		return _load_gltf(path)
+	if ext == "tscn" or ext == "scn":
+		return _load_packed(path)
+	push_error("viewer: unsupported model '%s' (want .glb/.gltf/.tscn/.scn)" % path)
+	return false
+
+
+func _load_gltf(path: String) -> bool:
 	var fs_path := path
 	if path.begins_with("res://") or path.begins_with("user://"):
 		fs_path = ProjectSettings.globalize_path(path)
@@ -151,6 +136,16 @@ func _load_model(path: String) -> bool:
 		push_error("viewer: failed to load model '%s' (error %d)" % [path, err])
 		return false
 	_model_host.add_child(gltf.generate_scene(state))
+	print("viewer: model loaded from %s" % path)
+	return true
+
+
+func _load_packed(path: String) -> bool:
+	var packed := load(_rooted_path(path)) as PackedScene
+	if packed == null:
+		push_error("viewer: failed to load scene '%s'" % path)
+		return false
+	_model_host.add_child(packed.instantiate())
 	print("viewer: model loaded from %s" % path)
 	return true
 
